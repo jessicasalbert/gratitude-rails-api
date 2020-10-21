@@ -1,25 +1,9 @@
-# README
+# Daily Gratitude - Back-end 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is used as a Rails API back-end to the Daily Gratitude project.
 
-Things you may want to cover:
+## Installation instructions
+To host locally, clone this repo along with the `daily-gratitude-front-end` repo. Bundle install, create databade and run migrations. Run `rails s` to use the server in conjuction with the front-end. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# gratitude-api
+## Functionality
+This repo persists data from the front-end, allowing users to create and 'like' each others' gratitude posts. 
